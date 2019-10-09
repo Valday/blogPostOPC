@@ -1,0 +1,15 @@
+<div>
+    <div class="list-group-item-heading">
+        <h3>{{ postItem.title }}</h3>
+        <h5>{{ postItem.createdAt | date: 'short'}}</h5>  
+    </div>
+    <p class="list-group-item-text">{{ postItem.content }}</p>
+    <br>
+    <div>
+        <div class="btn-group">
+            <button class="btn btn-success" (click)="onLoveIts()">love it!</button>
+            <button class="btn btn-danger" (click)="onDontLoveIts()">Don't love it!</button>   
+        </div>
+        <button type="button" class="btn btn-danger deletebutton" (click)="onDeleteItem()">Supprimer</button>           
+    </div>
+</div>
