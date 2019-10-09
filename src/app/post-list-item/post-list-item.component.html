@@ -1,7 +1,7 @@
 <div>
     <div class="list-group-item-heading">
         <h3>{{ postItem.title }}</h3>
-        <h5>{{ postItem.createdAt | date: 'short'}}</h5>  
+        <h5 class="date">{{ postItem.createdAt | date: 'short'}}</h5>  
     </div>
     <p class="list-group-item-text">{{ postItem.content }}</p>
     <br>

@@ -1,5 +1,12 @@
-p.date {
+.date {
+    right: 1.25rem;
+    top: 1.25rem;
+    font-style: italic;
+    color: grey;
     position: absolute;
-    right: 20px;
-    top: 15px;
+}
+
+.deletebutton {
+    right: 1.25rem;
+    position: absolute;
 }
